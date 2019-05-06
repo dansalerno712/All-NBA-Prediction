@@ -1,4 +1,5 @@
 # Predicting All-NBA Teams
+Using various classifiers to predict who will make the All NBA Team. Check out **Predicting All-NBA Teams.pdf** for more info on how it works
 ## Requirements
 * R
     - kknn
@@ -17,7 +18,7 @@
 
 ## Running the Classifier
 To run:
-* Run `scrape.sh` to grab the most recent data from https://www.basketball-reference.com/
+* Run **scrape.sh** to grab the most recent data from https://www.basketball-reference.com/
 * Open **preprocessing.R** and specify
     * If you are using per100 stats or per36 stats
     * If you are including any snubs
